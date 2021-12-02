@@ -2,18 +2,73 @@
     margin: 0;
 }
 
+body{
+    height: 100vh;
+}
 .sea{
     
     width: 100vw;
     height: 100vh;
     background-image: url(./beachshowcase.jpg);
     background-size: cover;
-  background-position: center;}
+     background-position: center;
+    display:inline-block;}
+  
+    .cont{
+        margin-top: 40vh;
+        text-align: center;
+        color: #926239;
+    }
+section{
+    display: block;
+}
+    .content{ width: 100vw;
+        text-align: center;
+        background-color: #926239;
+        padding: 2%;
+        margin: 0 auto;
 
-.cont{
-    background-position: center;
-    width: 50%;
-    height: 20%;
-    background-color: lawngreen;
-    text-align: center;
+
+    }
+
+  .content-w{
+width: 100vw;
+padding: 2%;
+
+  }
+   
+
+
+
+
+
+
+.line-blok{
+    width: 100vw;
+    margin: 0 auto;
+    display: block;
+}
+
+.blok{
+   
+    background-color: #926239;
+   margin: 0 auto;
+    width: 33vw;
+    display: inline-block;
+    padding: 2%;
+
+
+
+
+}
+
+.centr-blok{
+    
+
+    width: 33vw;
+    margin: 0 auto;
+    display: inline-block;
+padding: 2%;
+    
+ 
 }
