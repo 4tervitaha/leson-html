@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+.sea{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./beachshowcase.jpg);
+    background-size: cover;
+  background-position: center;}
+
+.cont{
+    background-position: center;
+    width: 50%;
+    height: 20%;
+    background-color: lawngreen;
+    text-align: center;
+}
