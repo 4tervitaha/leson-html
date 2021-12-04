@@ -2,60 +2,64 @@
     margin: 0;
 }
 
-body{
-    height: 100vh;
-}
+
 .sea{
     
     width: 100vw;
     height: 100vh;
     background-image: url(./beachshowcase.jpg);
     background-size: cover;
-     background-position: center;
-    display:inline-block;}
+    background-position: center;
+   box-sizing: border-box;
+   border: none;
+
+}
   
     .cont{
-        margin-top: 40vh;
         text-align: center;
         color: #926239;
+        box-sizing: border-box;
+        border:none;
+        padding-top: 30%;
     }
-section{
-    display: block;
-}
-    .content{ width: 100vw;
-        text-align: center;
+
+
+    .content{ 
+        width: 100vw;
         background-color: #926239;
+        box-sizing: border-box;
         padding: 2%;
-        margin: 0 auto;
-
+        text-align: center;
+        
+    
 
     }
+    
+    
 
-  .content-w{
-width: 100vw;
-padding: 2%;
+    .content-w{
+        width: 100vw;
+        box-sizing: border-box;
+        padding: 2%;
+        text-align: center;
 
   }
    
-
-
-
-
-
-
 .line-blok{
-    width: 100vw;
-    margin: 0 auto;
-    display: block;
+width: 100vw;
+
+
 }
+
 
 .blok{
    
     background-color: #926239;
-   margin: 0 auto;
-    width: 33vw;
+    width:33vw;
     display: inline-block;
     padding: 2%;
+    box-sizing: border-box;
+    text-align: left;
 
 
 
@@ -66,9 +70,13 @@ padding: 2%;
     
 
     width: 33vw;
-    margin: 0 auto;
     display: inline-block;
-padding: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: left;
     
  
+}
+.start{
+     text-decoration: none;
 }
