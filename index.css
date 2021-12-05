@@ -12,6 +12,8 @@
     background-position: center;
    box-sizing: border-box;
    border: none;
+   font-size: 1.5em;
+   text-transform: unset;
 
 }
   
@@ -20,7 +22,7 @@
         color: #926239;
         box-sizing: border-box;
         border:none;
-        padding-top: 30%;
+        padding-top:15%;
     }
 
 
@@ -78,5 +80,14 @@ width: 100vw;
  
 }
 .start{
-     text-decoration: none;
+     margin:30px ;
+    
+    
+}
+.a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+   color: #926239;
+   border-radius: 5px;
 }
